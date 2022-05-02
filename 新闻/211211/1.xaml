@@ -1,0 +1,23 @@
+<local:MyCard Title="我的世界更多新闻">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" FontSize="16" Foreground="{DynamicResource ColorBrush3}"
+            Text="我的世界更新通告： 我的世界最新版为1.18.1！2021年12月10日更新！" />
+        <TextBlock Margin="0,0,0,4"  TextWrapping="Wrap" FontSize="15" Foreground="{DynamicResource ColorBrush1}"
+            Text="我的世界Java版最新正式版本为1.18.1，版本于2021年12月10日正式发布！" />
+        <TextBlock Margin="0,0,0,4" TextWrapping="Wrap" FontSize="15" Foreground="{DynamicResource ColorBrush1}"
+            Text="我的世界Java版于2021年11月30日更新1.18，为洞穴和山崖更新第二部分！此版本对世界生成机制进行了相应的调整，最高格的上限由255格升到到319格，最低格限制由0格降到-64格。因此，增加了2个成就：" />
+    </StackPanel>
+</local:MyCard>
+
+
+
+<local:MyCard Title="赞助作者">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" LineHeight="20"
+            Text="想要赞助作者，可点击下方按钮，在爱发电中自愿进行赞助！"/>
+        <local:MyListItem Margin="0,0,0,0" Logo="https://sf1-cdn-tos.bdxiguastatic.com/img/user-avatar/a59b0f4a360346915972dfe87022a85b~300x300.image" Title="点我赞助小语闯世界" Info="点我对小语闯世界（创作者）进行赞助！！" 
+            EventType="打开网页" EventData="https://afdian.net/@xiaoyucshijie" Type="Clickable" />
+        <TextBlock TextWrapping="Wrap" LineHeight="10"
+            Text="目前仅支持爱发电进行赞助！"/>
+    </StackPanel>
+</local:MyCard>
